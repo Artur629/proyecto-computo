@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calcucomputo.ServerController">
+   <children>
+      <TextArea fx:id="log" layoutX="40.0" layoutY="77.0" prefHeight="271.0" prefWidth="240.0" />
+      <Text layoutX="114.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Servidor" wrappingWidth="90.94610595703125">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
