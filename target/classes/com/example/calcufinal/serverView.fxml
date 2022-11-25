@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="283.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calcufinal.ServerController">
+    <Label fx:id="serverPort" layoutX="13.0" layoutY="254.0" prefHeight="31.0" prefWidth="66.0" text="Port: 7000" />
+    <TextArea fx:id="serverLog" editable="false" layoutX="13.0" layoutY="56.0" prefHeight="187.0" prefWidth="258.0" wrapText="true" />
+    <Button alignment="CENTER" layoutX="165.0" layoutY="254.0" mnemonicParsing="false" onAction="#clearLog" prefHeight="31.0" prefWidth="103.0" text="CLEAR" textAlignment="CENTER" />
+    <Button fx:id="closeButton" alignment="CENTER" layoutX="165.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeServer" prefHeight="31.0" prefWidth="103.0" text="CLOSE" textAlignment="CENTER" />
+   <Label layoutX="14.0" layoutY="16.0" text="Server">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font>
+   </Label>
+</AnchorPane>
