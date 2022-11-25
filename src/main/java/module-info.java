@@ -1,8 +1,8 @@
-module com.example.calcucomputo {
+module com.example.calcufinal {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.calcucomputo to javafx.fxml;
-    exports com.example.calcucomputo;
+    opens com.example.calcufinal to javafx.fxml;
+    exports com.example.calcufinal;
 }
